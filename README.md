@@ -1,4 +1,4 @@
-# resolve-boolean [![NPM version](https://badge.fury.io/js/resolve-boolean.svg)](https://npmjs.org/package/resolve-boolean) [![Build Status](https://travis-ci.org/seanc/resolve-boolean.svg?branch=master)](https://travis-ci.org/seanc/resolve-boolean)
+# resolve-boolean [![NPM version](https://badge.fury.io/js/resolve-boolean.svg)](https://npmjs.org/package/resolve-boolean)
 
 > resolve yes/no, 1/0 to true/false
 
@@ -11,8 +11,13 @@ $ npm install --save resolve-boolean
 ## Usage
 
 ```js
-var resolveBoolean = require('resolve-boolean');
-resolveBoolean();
+const resolveBoolean = require('resolve-boolean');
+
+
+resolveBoolean('yes') // => true
+resolveBoolean('no') // => false
+resolveBoolean(1) // => true
+resolveBoolean(2) // => false
 ```
 
 ## License
