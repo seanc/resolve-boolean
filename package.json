@@ -1,7 +1,7 @@
 {
   "name": "resolve-boolean",
   "description": "resolve yes/no, 1/0 to true/false",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/seanc/resolve-boolean",
   "author": "Sean Wilson (https://imsean.me)",
   "repository": "seanc/resolve-boolean",
